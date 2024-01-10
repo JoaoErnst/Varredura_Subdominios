@@ -42,7 +42,7 @@ wordlist=(
 
 subdominios_encontrados=()
 
-# Códigos de cores ANSI
+
 verde_claro="\033[1;32m"
 vermelho="\033[0;31m"
 reset_cor="\033[0m"
@@ -61,7 +61,7 @@ do
     fi
 done
 
-# Exibindo subdomínios encontrados
+
 echo -e "${verde_claro}SUBDOMINIOS ENCONTRADOS:${reset_cor}"
 for subdominio in "${subdominios_encontrados[@]}"
 do 
